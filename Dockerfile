@@ -7,8 +7,8 @@ RUN go build .
 FROM alpine
 
 COPY --from=0 /go/src/github.com/amdonov/lite-idp/lite-idp /usr/bin/lite-idp
-COPY ./config.yaml /etc/lite-idp/
-COPY ./certs /etc/lite-idp/
+COPY config.yaml /etc/lite-idp/
+COPY certs/ /etc/lite-idp/certs/
 
 ENTRYPOINT ["lite-idp"]
 CMD ["serve"]
