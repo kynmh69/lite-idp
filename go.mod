@@ -10,6 +10,7 @@ require (
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/cloudflare/cfssl v1.6.4 // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.1
+	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/golang/protobuf v1.5.2
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
