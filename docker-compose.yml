@@ -8,3 +8,6 @@ services:
       - "9443:9443"
     environment:
       - TZ=Asia/Tokyo
+    volumes:
+      - ./config.yaml:/etc/lite-idp/config.yaml:ro
+      - ./hack/tls-setup/certs:/hack/tls-setup/certs:ro
