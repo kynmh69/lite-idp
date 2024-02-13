@@ -8,7 +8,7 @@ require (
 	github.com/amdonov/xmlsig v0.1.0
 	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/beevik/etree v1.1.0 // indirect
-	github.com/elazarl/go-bindata-assetfs v1.0.0
+	github.com/elazarl/go-bindata-assetfs v1.0.1
 	github.com/go-redis/redis v6.15.5+incompatible
 	github.com/golang/protobuf v1.3.2
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect

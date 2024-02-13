@@ -6,9 +6,9 @@ JSON	= env PATH="$(GOPATH)/bin:$(PATH)" cfssljson
 all: cfssl ca req
 
 cfssl:
-	go get -u -tags nopkcs11 github.com/cloudflare/cfssl/cmd/cfssl
-	go get -u github.com/cloudflare/cfssl/cmd/cfssljson
-	go get -u github.com/mattn/goreman
+	go install -tags nopkcs11 github.com/cloudflare/cfssl/cmd/cfssl
+	go install github.com/cloudflare/cfssl/cmd/cfssljson
+	go install github.com/mattn/goreman
 
 ca:
 	mkdir -p certs
